@@ -1,4 +1,4 @@
-def execCmd(cmdstr) {
+def call(cmdstr) {
    echo "[Command]: "+ cmdstr
    bat cmdstr 
 }
